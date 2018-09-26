@@ -1,5 +1,5 @@
 /* 
-// This example features the user of getters and setters and how to properly write and initialize getters and setters.
+// This example features the use of getters and setters and how to properly write and initialize getters and setters.
 // 
 // Getters and setters allows us to effectively protect our data and functions. This is a technique used greatly when
 // creating classes. For each variable, a "get" method will return its value and a "set" method will set the value of 
