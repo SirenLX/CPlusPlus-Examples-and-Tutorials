@@ -71,6 +71,27 @@ int main()
 
 	// break
 	// break loop example
+	cout << "Results for jump statements" << endl;
+
+	for (int x = 10; x > 0; x--)
+	{
+		cout << x << ", ";
+		if (x == 3)
+		{
+			cout << "countdown aborted!";
+			break;
+		}
+	}
+
+	// continue
+	// continue loop example
+	for (int x = 10; x > 0; x--)
+	{
+		cout << x << ", ";
+		if (x == 5) continue;
+		cout << x << ", ";
+	}
+	cout << "liftoff!" << endl;
 
 
 	getchar();
